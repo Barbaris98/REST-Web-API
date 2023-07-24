@@ -65,9 +65,9 @@
                 document.getElementById("userAge").value = user.age;
             }
             else {
-                // если произошла ошибка, получаем сообщение об ошибке
+                
                 const error = await response.json();
-                console.log(error.message); // и выводим его на консоль
+                console.log(error.message);
             }
         }
         // Добавление пользователя
